@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>大国工匠</title>
+<link rel="stylesheet" href="fuye.css" />
+<script type="text/javascript" src="js/jquery-1.x.js"></script>
+<script src="jquery-1.11.1.min.js"></script>
+<script src="unslider.min.js"></script>
+<script>
+function s1()
+	{
+		var a=l1.value;
+		var b=l2.value;
+		var c=l3.value;
+		
+		
+		
+		if(a==""||b==""||c=="")
+		{
+			alert("含有空白处，无法提交，敬请谅解！");
+		}
+		else
+		{
+			alert("提交成功");
+		}
+	}
+$(document).ready(function(e) {
+	var progress = $(".progress"),li_width = $("#b04 li").length;
+    var unslider04 = $('#b04').unslider({
+		dots: true,
+		complete:function(index){//自己添加的，官方没有
+			progress.animate({"width":(100/li_width)*(index+1)+"%"});
+		}
+	}),
+
+	data04 = unslider04.data('unslider');
+	$('.unslider-arrow04').click(function() {
+        var fn = this.className.split(' ')[1];
+        data04[fn]();
+    });
+});
+
+</script>
+
+</head>
+
+<body>
+
+
+<div id="body"> 
+	<div style="width:1800px; height:50px; background-color:#FFF;">
+        	<marquee width="300px" align="left" style="margin-top:20px;">祝您探索“大国工匠”之旅愉快！</marquee>
+            
+            
+        </div>
+
+<div class="banner" id="b04">
+	<ul>
+		<li class="slider-item"><a href="#"><img src="topic.jpg"  width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+		<li class="slider-item"><a href="#"><img  src="a4457cc70a914e9a987cbbc583897342.jpeg" width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+		<li class="slider-item"><a href="#"><img  src="2017101617235776055.jpg" width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+		<li class="slider-item"><a href="#"><img  src="5c9cb2971b2fde5e9b72f443246d33a4bf1d573e_size246_w1920_h1080.jpg" width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+		<li class="slider-item"><a href="#"><img   src="0FJ4F12-0.jpg"  width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+	</ul>
+	<div class="progress"></div>
+	<a href="javascript:void(0);" class="unslider-arrow04 prev"><img class="arrow" id="al" src="arrowl.png" alt="prev" width="20" height="35"></a>
+	<a href="javascript:void(0);" class="unslider-arrow04 next"><img class="arrow" id="ar" src="arrowr.png" alt="next" width="20" height="37"></a>
+</div>
+
+	<div id="q1" align="center">
+    <a href="jia2.html"><img  id="ss"  src="1573619869_969185.png" style="margin-top:10px;" onClick="xianshi()"/></a>
+    
+    </div>
+    <div id="q5">
+    	<div id="q51">
+        </div>
+      <div id="q52">
+       <p style="font-size:36px;">留言区：</p>
+       <hr  color="#663300" width="100%" size="2" />
+     
+       	<form style=" margin-left:300px; margin-top:300px;" name="form1">
+                	标&nbsp;题：&nbsp;&nbsp;&nbsp;&nbsp;<input  id="l1" type="text" /><br />
+					用户名：<input type="text"  id="l2"/><br />
+					性别：&nbsp;&nbsp;&nbsp;&nbsp;
+                        男:<input  type="radio" name="sex" value="男" />
+                    	 女:<input  type="radio" name="sex" value="女" /><br />
+
+                    爱好：&nbsp;&nbsp;&nbsp;&nbsp;
+                    看电视<input type="checkbox" name="a1" value="看电视" />
+                    	手工<input type="checkbox" name="a1" value="手工" />
+                        电影<input type="checkbox" name="a1" value="电影" />
+                         sport<input type="checkbox" name="a1" value="sport" />
+                         无<input type="checkbox" name="a1" value="无" /><br />
+<br />
+<br />
+					内容:：&nbsp;&nbsp;&nbsp;&nbsp;<textarea  id="l3" wrap="virtual" rows="10" cols="50">
+                    </textarea><br />
+					<input type="reset" />
+                    <input  type="button" value="提交"  onclick="s1()"/>
+              </form>
+              <img   style="margin-left:80px;" src="23984915_133804837000_2.jpg" width="1100" height="846" />
+        </div>
+        <div id="q53">
+        </div>
+    </div>
+  
+    <div style="width:1800px; height:300px; background-color:rgb(57,57,57)">
+       	  <img src="AD0Ioe7NBRAEGAAg4vnlwAUoucrO4wQwVzhX.png"  style="margin-left:300px; margin-top:50px;"/>
+          <img src="AD0Ioe7NBRAEGAAg5PnlwAUou4HwmAIwVzhX.png" style="margin-left:500px; margin-top:50px;" />
+          <img src="AD0Ioe7NBRAEGAAg5vnlwAUo3MK-yAMwVzhX.png" style="margin-left:500PX; margin-top:50PX;" /><br />
+
+          <span style="color: #FFF;margin-left:250px; margin-top:40px;">
+位置：小冷是来自神秘领域的陌生人，说太多会被抓</span>
+      <span style="color: #FFF; margin-left:350px; margin-top:40px;">联系电话：XXXXXXXXXXX</span>
+          <span style="color: #FFF;margin-left:350px; margin-top:40px;">电子邮箱：XXXXXX@XX.com</span>
+          <center><p style="color: #FFF; margin-top:100px">版权所有&copy;小冷</p></center></div>
+</div>
+</body>
+</html>
+    

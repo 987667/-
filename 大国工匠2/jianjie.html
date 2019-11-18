@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>大国工匠</title>
+<link rel="stylesheet" href="fuye.css" />
+<script type="text/javascript" src="js/jquery-1.x.js"></script>
+<script src="jquery-1.11.1.min.js"></script>
+<script src="unslider.min.js"></script>
+<script>
+$(document).ready(function(e) {
+	var progress = $(".progress"),li_width = $("#b04 li").length;
+    var unslider04 = $('#b04').unslider({
+		dots: true,
+		complete:function(index){//自己添加的，官方没有
+			progress.animate({"width":(100/li_width)*(index+1)+"%"});
+		}
+	}),
+
+	data04 = unslider04.data('unslider');
+	$('.unslider-arrow04').click(function() {
+        var fn = this.className.split(' ')[1];
+        data04[fn]();
+    });
+});
+
+</script>
+
+</head>
+
+<body>
+
+
+<div id="body"> 
+	<div style="width:1800px; height:50px; background-color:#FFF;">
+        	<marquee width="300px" align="left" style="margin-top:20px;">祝您探索“大国工匠”之旅愉快！</marquee>
+            
+            
+        </div>
+
+<div class="banner" id="b04">
+	<ul>
+		<li class="slider-item"><a href="#"><img src="topic.jpg"  width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+		<li class="slider-item"><a href="#"><img  src="a4457cc70a914e9a987cbbc583897342.jpeg" width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+		<li class="slider-item"><a href="#"><img  src="2017101617235776055.jpg" width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+		<li class="slider-item"><a href="#"><img  src="5c9cb2971b2fde5e9b72f443246d33a4bf1d573e_size246_w1920_h1080.jpg" width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+		<li class="slider-item"><a href="#"><img   src="0FJ4F12-0.jpg"  width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+	</ul>
+	<div class="progress"></div>
+	<a href="javascript:void(0);" class="unslider-arrow04 prev"><img class="arrow" id="al" src="arrowl.png" alt="prev" width="20" height="35"></a>
+	<a href="javascript:void(0);" class="unslider-arrow04 next"><img class="arrow" id="ar" src="arrowr.png" alt="next" width="20" height="37"></a>
+</div>
+
+	<div id="q1" align="center">
+    <a href="jia2.html"><img  id="ss"  src="1573619869_969185.png" style="margin-top:10px;" onClick="xianshi()"/></a>
+    
+    </div>
+  <div id="q2">
+    	<hr color="#CC9966"  style="width:100%"/><br /><br /><br />
+        <img src="v2-e576fc1b2a469087cde7e1a7a053dc51_hd.jpg" />
+        <p>工于形，匠于心。</p>
+        <p>十年磨一剑，一剑传古今。</p>
+        <br /> <br /> <br />
+        <hr /><br /><br />
+        <p>▍▌ 壹 ▪ 匠心 ▌▍</p>
+        <p>工匠精神，是对文化的一种传承；匠心筑梦，传承的是一种精神，诠释的是一份追求，承载的是对信仰的情怀。</p>
+        <p>千百年来，工匠们执着于不断雕琢自己的产品，不断改善自己的工艺，享受着产品在双手升华的过程。</p>
+        <p>他们对细节有着严苛的要求，他们追求完美和极致；其利虽微，他们执着的是结果，十年一剑，他们坚持的是初心。</p>
+        <p>因为工于形，所以匠于心！</p>
+        <img src="v2-2fab431a91d238e243f1687d0f48bcf9_hd.jpg" />
+        <p>工匠，其本意为筐里背着刀斧工具的木工，即木匠，现在“工匠”泛指各行各业，而工匠精神也渗透在各行各业。</p>
+        <p>正因为工匠精神，工匠们才在数千年前，创造了举世闻名的木雕石刻，留下了众多的经典建筑。</p>
+        <p>从大明宫到紫禁城，从恭王府到拙政园，乃至数不尽的私家园林、世家大宅，无一不是因工匠秉持“心在一艺，其艺必工”的精神。</p>
+        <p>而在现代这种精神依旧传承，始于专注，成于创新，贵在坚持。</p>
+        <p>举世瞩目的珠港澳大桥于2009年12月15日动工建设； 2017年7月7日，主体工程全线贯通； 2018年2月6日，港珠澳大桥主体完成验收，于同年9月28日起进行粤港澳三地联合试运。</p>
+        <p>在历史长河中，这是一个奇迹；在国家发展中，这是一个标杆；而在桥路工匠中，这是一份责任、一份担当，甚至是全中国人民的面子！</p>
+        <img src="v2-d208a1c700551d3936b4c0f2a3bda961_hd.jpg" />
+        <p>工匠的故事在每天发生着，无论是航天、铁路还是雕刻、撰写，这些尽显中国传承，中国制造！</p>
+        <p>传承的是五千年中沉淀的情怀，制造的是华夏血统流淌的信仰！</p>
+        <p>这就是大国的匠心！</p>
+        <br /><br /><br /><br />
+        <p>▍▌ 贰 ▪ 匠人 ▌▍</p>
+        <img src="v2-b3df02d2b3066b307eea4bec92acae9b_hd.jpg" />
+        <p>匠人专心专法，咫尺匠心，诠释着对信仰的追求。</p>
+         <p>他们锲而不舍，身体力行，传承着伟大的精神；一半巧夺天工，一半精益求精，在雕琢尽显中国制造；他们是最平凡的劳动者，但却一念执着，一生坚守！</p>
+          <p>执着于一份事业，坚守在一个团队。</p>
+        <img src="v2-ee3c957af0e002e94b6d7456729dda8b_hd.jpg" />
+        <p>▷ 屏风“锦绣中华”是一百位匠人连续三年雕刻而成，现存放在雁栖湖国际会都。“一带一路”大会中，这件工艺品已然为中国匠人代言，中国也向全世界展现着大国的崛起和大国的“工匠精神”！ ◁</p>
+        <p>佛家有云，双手合十，乃是将十万力量凝聚，制心一处，无事不成。时间洒在哪里，哪里就开花结果。一颗匠心，心系一处，无事不成。</p>
+        <p>"真正的践行者，用修行的价值观代替浮躁功利的工作观。用一生为代价去做一件事，那是一种纯粹的伟大，那就是匠人匠心。"</p>
+        <img src="v2-2fab431a91d238e243f1687d0f48bcf9_hd.jpg" />
+        <p>这个时代不缺匠人，缺的是能将十万匠人力量凝聚的匠心！</p>
+        <br />
+ <br /> <hr /><br /><br /><br />
+    </div>
+    <div style="width:1800px; height:300px; background-color:rgb(57,57,57)">
+       	  <img src="AD0Ioe7NBRAEGAAg4vnlwAUoucrO4wQwVzhX.png"  style="margin-left:300px; margin-top:50px;"/>
+          <img src="AD0Ioe7NBRAEGAAg5PnlwAUou4HwmAIwVzhX.png" style="margin-left:500px; margin-top:50px;" />
+          <img src="AD0Ioe7NBRAEGAAg5vnlwAUo3MK-yAMwVzhX.png" style="margin-left:500PX; margin-top:50PX;" /><br />
+
+          <span style="color: #FFF;margin-left:250px; margin-top:40px;">
+位置：位置：小冷是来自神秘领域的陌生人，说太多会被抓</span>
+      <span style="color: #FFF; margin-left:350px; margin-top:40px;">联系电话：XXXXXXXXXXX</span>
+          <span style="color: #FFF;margin-left:350px; margin-top:40px;">电子邮箱：XXXXXX@XX.com</span>
+          <center><p style="color: #FFF; margin-top:100px">版权所有&copy;小冷</p></center></div>
+</div>
+</body>
+</html>
+    

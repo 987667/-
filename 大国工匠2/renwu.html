@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>大国工匠</title>
+<link rel="stylesheet" href="fuye.css" />
+<script type="text/javascript" src="js/jquery-1.x.js"></script>
+<script src="jquery-1.11.1.min.js"></script>
+<script src="unslider.min.js"></script>
+<script>
+$(document).ready(function(e) {
+	var progress = $(".progress"),li_width = $("#b04 li").length;
+    var unslider04 = $('#b04').unslider({
+		dots: true,
+		complete:function(index){//自己添加的，官方没有
+			progress.animate({"width":(100/li_width)*(index+1)+"%"});
+		}
+	}),
+
+	data04 = unslider04.data('unslider');
+	$('.unslider-arrow04').click(function() {
+        var fn = this.className.split(' ')[1];
+        data04[fn]();
+    });
+});
+
+</script>
+
+</head>
+
+<body>
+
+
+<div id="body"> 
+	<div style="width:1800px; height:50px; background-color:#FFF;">
+        	<marquee width="300px" align="left" style="margin-top:20px;">祝您探索“大国工匠”之旅愉快！</marquee>
+            
+            
+        </div>
+
+<div class="banner" id="b04">
+	<ul>
+		<li class="slider-item"><a href="#"><img src="topic.jpg"  width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+		<li class="slider-item"><a href="#"><img  src="a4457cc70a914e9a987cbbc583897342.jpeg" width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+		<li class="slider-item"><a href="#"><img  src="2017101617235776055.jpg" width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+		<li class="slider-item"><a href="#"><img  src="5c9cb2971b2fde5e9b72f443246d33a4bf1d573e_size246_w1920_h1080.jpg" width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+		<li class="slider-item"><a href="#"><img   src="0FJ4F12-0.jpg"  width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+	</ul>
+	<div class="progress"></div>
+	<a href="javascript:void(0);" class="unslider-arrow04 prev"><img class="arrow" id="al" src="arrowl.png" alt="prev" width="20" height="35"></a>
+	<a href="javascript:void(0);" class="unslider-arrow04 next"><img class="arrow" id="ar" src="arrowr.png" alt="next" width="20" height="37"></a>
+</div>
+
+	<div id="q1" align="center">
+    <a href="jia2.html"><img  id="ss"  src="1573619869_969185.png" style="margin-top:10px;" onClick="xianshi()"/></a>
+    
+    </div>
+  <div id="q2">
+    	<hr color="#CC9966"  style="width:100%"/><br /><br /><br />
+        <img src="1111.jpg"/>
+        <p>李云鹤</p>
+        <p>风刀沙剑，面壁一生。洞中一日，笔下千年！六十二载潜心修复，八十六岁耕耘不歇。以心为笔，以血为墨，让风化的历史暗香浮动，绚烂重生，他就是——敦煌研究院原副所长李云鹤。
+</p>
+		<p>倾心一件事，干了一辈子。今年已经80余岁高龄的李云鹤，仍坚守在文物修复保护第一线，被誉为我国“文物修复界泰斗”。他是国内石窟整体异地搬迁复原成功的第一人，也是国内运用金属骨架修复保护壁画获得成功的第一人。他修复壁画近4000平方米，修复塑像500余身，取得了多项研究成果，其中“筛选壁画修复材料工艺”荣获全国科学大会成果奖，“莫高窟161窟起甲壁画修复”荣获文化部科技成果一等奖。</p>
+        <p>所获荣誉：甘肃省“陇原工匠”、甘肃省五一劳动奖章。</p>
+        <br /> <br /> <br />
+        <hr /><br /><br />
+          <img src="2222.jpg"/>
+        <p>谭文波</p>
+        <p>听诊大地弹指可定；相隔厚土锁缚“气海油龙”。宝藏在黑暗中沉睡，他以无声的温柔唤醒。他用黑色的眼睛，闪亮试油的“中国路径”，他就是中国石油集团西部钻探工程有限公司试油公司试油工谭文波。</p>
+		<p>谭文波坚守大漠戈壁20多年，是油田里的“土发明家”。他领衔发明的具有自主知识产权的新型桥塞坐封工具，投入使用上千井次。他解决一线生产疑难问题30多项，技术转化革新成果4项，获得国家发明专利4项，实用新型专利8项。他还培养出一大批青年技术骨干，为企业创收近亿元。</p>
+        <p>所获荣誉：全国五一劳动奖章、最美职工。</p>
+        <br /> <br /> <br />
+        <hr /><br /><br />
+          <img src="3333.jpg"/>
+        <p>王树军</p>
+        <p>他是维修工，也是设计师，更像是永不屈服的斗士！临危请命，只为国之重器不能受制于人。他展示出中国工匠的风骨，在尽头处超越，在平凡中非凡，他就是——潍柴动力股份有限公司一号工厂机修钳工王树军。</p>
+		<p>王树军致力于中国高端装备研制，不被外界高薪诱惑，坚守打造重型发动机“中国心”。他攻克的进口高精加工中心光栅尺气密保护设计缺陷，填补国内空白，成为中国工匠勇于挑战进口设备的经典案例。他独创的“垂直投影逆向复原法”，解决了进口加工中心定位精度为千分之一度的NC转台锁紧故障，打破了国外技术封锁和垄断。</p>
+        <p>所获荣誉：山东省十大“齐鲁工匠”、齐鲁首席技师、山东省有突出贡献技师、富民兴鲁劳动奖章、山东省省管企业道德模范。</p>
+        <br /> <br /> <br />
+        <hr /><br /><br />
+          <img src="4444.jpg"/>
+        <p>陈行行</p>
+        <p>青涩年华化为多彩绽放，精益求精铸就青春信仰。大国重器的加工平台上，他用极致书写精密人生。胸有凌云志，浓浓报国情，他就是——中国工程物理研究院机械制造工艺研究所工人陈行行。</p>
+		<p>陈行行从事保卫祖国的核事业，是操作着价格高昂、性能精良的数控加工设备的新一代技能人员，优化了国家重大专项分子泵项目核心零部件动叶轮叶片的高速铣削工艺。他精通多轴联动加工技术、高速高精度加工技术和参数化自动编程技术，尤其擅长薄壁类、弱刚性类零件的加工工艺与技术，是一专多能的技术技能复合型人才。</p>
+        <p>所获荣誉：全国五一劳动奖章、全国技术能手、四川工匠。</p>
+        <br /> <br /> <br />
+        <hr /><br /><br />
+          <img src="5555.jpg"/>
+        <p>乔素凯</p>
+        <p>4米长杆，26年，56000步的零失误令人惊叹。是责任，是经验，更是他心里的“安全大于天”。他的守护，正如那池清水，平静蔚蓝，他就是——中国广核集团运营公司大修中心核燃料服务分部工程师、核燃料修复师乔素凯。</p>
+		<p>乔素凯是我国第一代核燃料师。他与核燃料打了26年交道，全国一半以上核电机组的核燃料都由他和他的团队来操作，他的团队是国内目前唯一能对破损核燃料进行水下修复的团队。26年来，乔素凯核燃料操作保持“零失误”。这些年，他主持参与的项目获得了十九项国家发明专利。</p>
+        <p>所获荣誉：全国技术能手、中央企业劳动模范。</p>
+        <br /> <br /> <br />
+        <hr /><br /><br />
+        
+       
+  </div>
+    <div style="width:1800px; height:300px; background-color:rgb(57,57,57)">
+       	  <img src="AD0Ioe7NBRAEGAAg4vnlwAUoucrO4wQwVzhX.png"  style="margin-left:300px; margin-top:50px;"/>
+          <img src="AD0Ioe7NBRAEGAAg5PnlwAUou4HwmAIwVzhX.png" style="margin-left:500px; margin-top:50px;" />
+          <img src="AD0Ioe7NBRAEGAAg5vnlwAUo3MK-yAMwVzhX.png" style="margin-left:500PX; margin-top:50PX;" /><br />
+
+          <span style="color: #FFF;margin-left:250px; margin-top:40px;">
+位置：小冷是来自神秘领域的陌生人，说太多会被抓</span>
+      <span style="color: #FFF; margin-left:350px; margin-top:40px;">联系电话：XXXXXXXXXXX</span>
+          <span style="color: #FFF;margin-left:350px; margin-top:40px;">电子邮箱：XXXXXX@XX.com</span>
+          <center><p style="color: #FFF; margin-top:100px">版权所有&copy;小冷</p></center></div>
+</div>
+</body>
+</html>
+    

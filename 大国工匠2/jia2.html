@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>大国工匠</title>
+<link rel="stylesheet" href="fuye2.css" />
+<script type="text/javascript" src="js/jquery-1.x.js"></script>
+<script src="jquery-1.11.1.min.js"></script>
+<script src="unslider.min.js"></script>
+<script>
+$(document).ready(function(e) {
+	var progress = $(".progress"),li_width = $("#b04 li").length;
+    var unslider04 = $('#b04').unslider({
+		dots: true,
+		complete:function(index){//自己添加的，官方没有
+			progress.animate({"width":(100/li_width)*(index+1)+"%"});
+		}
+	}),
+
+	data04 = unslider04.data('unslider');
+	$('.unslider-arrow04').click(function() {
+        var fn = this.className.split(' ')[1];
+        data04[fn]();
+    });
+});
+function abc()
+	{
+		var a=i1.value;
+		var b=i2.value;
+		if(a==""||b=="")
+		{
+			alert("用户名或密码不能为空！！");
+		}
+		else
+		{
+			alert("登陆成功！");
+		}
+	}
+	function xianshi()
+	{
+		$("#q2").show(1500);
+	}
+</script>
+
+</head>
+
+<body>
+
+
+<div id="body"> 
+	<div style="width:1800px; height:50px; background-color:#FFF;">
+        	<marquee width="300px" align="left" style="margin-top:20px;">欢迎浏览大国工匠网，请在右侧登陆。</marquee>
+            <span style=" margin-left:800px;">用户名：<input  id="i1" type="text" />
+            密&nbsp;&nbsp;码：<input  id="i2" type="password" />
+            <a href="#"><img src="a.png" /></a>&nbsp;&nbsp;<a href="#"><img src="b.png" /></a>
+            <input  id="i3" type="button" value="提交" onclick="abc()" /><span>
+            
+        </div>
+
+<div class="banner" id="b04">
+	<ul>
+		<li class="slider-item"><a href="#"><img src="topic.jpg"  width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+		<li class="slider-item"><a href="#"><img  src="a4457cc70a914e9a987cbbc583897342.jpeg" width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+		<li class="slider-item"><a href="#"><img  src="2017101617235776055.jpg" width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+		<li class="slider-item"><a href="#"><img  src="5c9cb2971b2fde5e9b72f443246d33a4bf1d573e_size246_w1920_h1080.jpg" width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+		<li class="slider-item"><a href="#"><img   src="0FJ4F12-0.jpg"  width="1800" height="550" ><span class="slider-title"><em>大国工匠：中国工匠</em></span></a></li>
+	</ul>
+	<div class="progress"></div>
+	<a href="javascript:void(0);" class="unslider-arrow04 prev"><img class="arrow" id="al" src="arrowl.png" alt="prev" width="20" height="35"></a>
+	<a href="javascript:void(0);" class="unslider-arrow04 next"><img class="arrow" id="ar" src="arrowr.png" alt="next" width="20" height="37"></a>
+</div>
+
+	<div id="q1" align="center">
+    <a href="#"><img  id="ss" src="222.PNG"  style="margin-top:10px;" onClick="xianshi()"/></a>
+    
+    </div>
+    <div id="q2">
+    	<a href="jianjie.html"><div id="q22">
+        	<div id="q221">
+            	<img src="20170421101326707.jpg" width="445" height="300" />
+            </div>
+            <div id="q222">
+            <center><img src="1573561092_574130.png" /></center>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前，全社会都在大力提倡重塑与发扬中国工匠精神，既然要重塑与发扬，就得了解我们工匠精神的历史。回眸遥望夏、商、周的青铜技术，深沉感知跨越几千年的瓷器文化，用心感悟唐宋诗书文化，观瞻触摸明清家具与建筑文化，我们曾经的工匠精神有过辉煌高峰。在中国五千年的历史长河里，从农业到商业，从文学到艺术，从技术到科学，呈现了无数大国工匠，也造就了无数精品，并凝练了我们自己的“工匠精神”，形成了中国特色的工匠文化。</p>
+            </div>
+        </div></a>
+        <a href="jingshen.html"><div id="q23" style="height:350px;">
+        	<div id="q231">
+            	<center><img style="margin-top:10px;" src="1573562732_659983.png" /></center><br />
+
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我理解的工匠精神是工匠精神就是专注于自己做的事，精益求精，把999%提高到99.99%;严谨敬业，欣赏自己的工作，在每一个细节中，体会做事的乐趣。</p><br />
+
+                <p style="font-size:36px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;能抵御枯燥感的，不是兴趣和情怀，而是工匠精神。</p>
+            </div>
+            <div id="q232" align="right" style="height:350px;">
+            <img src="e66469daf9b291a7f3c2e803c38a1c0c.jpg"  width="450" height="348"/>
+           
+            </div>
+        </div></a>
+        
+        <a href="toutiao.html"><div id="q24">
+        	<div id="q241">
+            	<img src="1d3516b3a8c2a5243720cb937f8001af.jpg" width="540" height="299" />
+            </div>
+            <div id="q242">
+            <center><img style="margin-top:10px;" src="1573564688_534879.png" /></center>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传承工匠精神 云南省总工会劳模创新工作室工业制造类联盟成立</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国工程院院士倪光南：5G对生活、经济都会有重大变革</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;刘志山：用“工匠精神”诠释一名检察官的责任担当</p><br />
+
+            <p style="font-size:36px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;让我们一起认知当代工匠事迹吧。</p>
+            
+            </div>
+        </div></a>
+        
+        
+        <a href="renwu.html"><div id="q23" style="height:350px;">
+        	<div id="q231">
+            	<center><img style="margin-top:10px;" src="1573566372_625647.png" />
+				<p>他们精工细作</p>
+            <p>毫厘之间追寻造物极致 </p>
+            <p>他们默默无闻</p>
+            <p>平凡岗位深藏报国雄心</p>
+            <p>他们都有一个响亮的称谓</p>
+            <p style="font-size:36px;">大国工匠</p></center>
+              
+            </div>
+            <div id="q232" align="right" style="height:350px;">
+            <img  src="6dbf2b97e803464ebf44dd2a711ff2a6_th.jpeg"  width="450" height="348"/>
+           
+            </div>
+           
+        </div></a>
+        <a href="lianxi.html">
+        <div style="width:1800px; height:250px; background-color:#000;" align="center">
+          
+           <img src="777_2.png" width="220" height="220" />
+            <img src="1573567412_316767.png" />
+           <img src="777_1.png" width="220" height="220" />
+          </div></a>
+          
+          <div style="width:1800px; height:300px; background-color:rgb(57,57,57)">
+       	  <img src="AD0Ioe7NBRAEGAAg4vnlwAUoucrO4wQwVzhX.png"  style="margin-left:300px; margin-top:50px;"/>
+          <img src="AD0Ioe7NBRAEGAAg5PnlwAUou4HwmAIwVzhX.png" style="margin-left:500px; margin-top:50px;" />
+          <img src="AD0Ioe7NBRAEGAAg5vnlwAUo3MK-yAMwVzhX.png" style="margin-left:500PX; margin-top:50PX;" /><br />
+
+          <span style="color: #FFF;margin-left:250px; margin-top:40px;">
+位置：位置：小冷是来自神秘领域的陌生人，说太多会被抓</span>
+      <span style="color: #FFF; margin-left:350px; margin-top:40px;">联系电话：XXXXXXXXXXX</span>
+          <span style="color: #FFF;margin-left:350px; margin-top:40px;">电子邮箱：XXXXXX@XX.com</span>
+          <center><p style="color: #FFF; margin-top:100px">版权所有&copy;小冷</p></center></div>
+    	
+  </div>
+</div>
+
+
+</body>
+</html>
